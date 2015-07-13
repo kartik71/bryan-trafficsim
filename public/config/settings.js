@@ -15,7 +15,7 @@
  *******************************************************************************/
 
 var config = {
-	iot_deviceType: "trafficsim",     // replace with your deviceType
+	iot_deviceType: "vehicle",     // replace with your deviceType
 	iot_deviceOrg: "6imc9v",       // replace with your IoT Foundation organization
 	iot_deviceSet: [               // replace with your registered device(s)
 		{ deviceId: "ABC", token: "D6mUKIVJkhOP&0lsvl" },   
