@@ -15,15 +15,15 @@
  *******************************************************************************/
 
 var config = {
-	iot_deviceType: "",     // replace with your deviceType
-	iot_deviceOrg: "",       // replace with your IoT Foundation organization
+	iot_deviceType: "trafficsim",     // replace with your deviceType
+	iot_deviceOrg: "6imc9v",       // replace with your IoT Foundation organization
 	iot_deviceSet: [               // replace with your registered device(s)
-		{ deviceId: "", token: "" },   
-		{ deviceId: "", token: "" },
-		{ deviceId: "", token: "" }
+		{ deviceId: "ABC", token: "D6mUKIVJkhOP&0lsvl" },   
+		{ deviceId: "DEF", token: "&&UB(taXUKSlU6i?8)" },
+		{ deviceId: "GHI", token: "NF(R1Po94Up9m?+qqT" }
 	],
-	iot_apiKey: "",    // replace with the key for a generated API token
-	iot_apiToken: "",  // replace with the generated API token
+	iot_apiKey: "a-6imc9v-2bpmq5r8oj",    // replace with the key for a generated API token
+	iot_apiToken: "sGQ&vTu_S_jy!FElu*",  // replace with the generated API token
 
 	// these topics will be used by Geospatial Analytics
 	notifyTopic: "iot-2/type/api/id/geospatial/cmd/geoAlert/fmt/json",
